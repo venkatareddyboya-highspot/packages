@@ -20,7 +20,7 @@ Downloaded by pub (not CocoaPods).
   s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '10.14'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
-  s.resource_bundles = {'webview_flutter_wkwebview_privacy' => ['webview_flutter_wkwebview/Sources/webview_flutter_wkwebview/Resources/PrivacyInfo.xcprivacy']}
+  s.resources =  ['webview_flutter_wkwebview/Sources/webview_flutter_wkwebview/Resources/PrivacyInfo.xcprivacy']
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.xcconfig = {
     'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)/ $(SDKROOT)/usr/lib/swift',
